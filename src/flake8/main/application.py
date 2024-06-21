@@ -213,3 +213,5 @@ class Application:
             assert self.options is not None
             if self.options.count:
                 print(self.result_count)
+            if self.result_count == 0:
+                print("yay")
